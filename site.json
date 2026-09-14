@@ -1,0 +1,10 @@
+{
+  "description": "Showcases Modo Studio's innovative mobile app development projects for iOS and Android, highlighting their unique ideas and creative solutions.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
