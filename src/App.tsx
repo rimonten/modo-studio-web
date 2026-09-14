@@ -55,7 +55,7 @@ function Arrow() { return <span aria-hidden="true" className="text-xl leading-no
 export default function App() {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState(0);
-  const [language, setLanguage] = useState<Language>("es");
+  const [language, setLanguage] = useState<Language>("en");
   const t = content[language];
   const idea = t.ideas[selected];
   const go = (id: string) => { setOpen(false); document.getElementById(id)?.scrollIntoView({ behavior: "smooth" }); };
