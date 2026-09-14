@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --background: #f7f7f2;
+  --foreground: #111111;
+  --acid: #d7ff3f;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-acid: var(--acid);
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-sans: "Manrope", Arial, sans-serif;
+  --font-mono: "DM Mono", monospace;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: "Manrope", Arial, sans-serif; background: var(--background); }
+button, a { -webkit-tap-highlight-color: transparent; }
